@@ -1,0 +1,57 @@
+indicateur;consigne
+Raison sociale;Nom de l'entreprise cliente / maître d'ouvrage (pas le bureau d'études, pas Bpifrance).
+SIRET;14 chiffres, sans espaces.
+SIREN;9 chiffres. Peut être déduit des 9 premiers chiffres du SIRET (confiance moyenne).
+Effectif;Nombre de salariés de l'entreprise si indiqué (différent du nombre d'occupants du site).
+CODE NAF;Code APE/NAF de l'entreprise (ex. 70.10Z).
+Zone climatique;Zone climatique réglementaire : H1a, H1b, H1c, H2a, H2b, H2c, H2d ou H3.
+Superficie site (m2 SUB);Surface utile brute (SUB) du site, en m². Si seule la SDP ou la SHON est donnée, l'indiquer avec confiance moyenne et le préciser.
+Nombre de bâtiments site;Nombre de bâtiments étudiés sur le site.
+Usage principal du site;Activité principale (bureaux, santé, enseignement, commerce…).
+Nombre d'occupants;Somme des effectifs présents sur le site (tableau occupation / horaires).
+Horaires d'occupation;Texte court, ex. « 12 h/j, 5 j/sem, 52 sem/an ».
+Statut d'occupation du bâtiment (propriétaire ou locataire);Répondre « propriétaire » ou « locataire » (voir répartition des responsabilités propriétaire/locataire).
+Assujetti au décret tertiaire (oui ou non);oui si surface tertiaire ≥ 1000 m² ou si le rapport l'indique.
+Date de cadrage;Date de la réunion de lancement / cadrage.
+Date de visite;Date de la visite sur site.
+Date de restitution du rapport;Date du rapport final (page de garde ou tableau d'évolution du document, dernier indice).
+consommation année courante (kWh/m2);Consommation de l'année actuelle / la plus récente, en kWhef/m² (« Cactuel », « consommation actuelle »).
+consommation année courante corrigée des conditions climatiques (kWh/m2);Consommation actuelle ajustée / corrigée des variations climatiques (DJU), en kWhef/m².
+année courante considérée;Année de la consommation « actuelle » utilisée dans le rapport.
+Mois - Référence DEET;Mois de début de l'année de référence (souvent janvier = 1) si précisé.
+Année - Référence DEET;« Année de référence retenue » pour le décret tertiaire (entre 2010 et 2019).
+Cabs - Référence (kWh/m2);Cabs de l'année de référence (« Cabs réf », « Cabs_réf »). « NC » → null.
+Crelat 2030 sans modulation (kWh/m2);Crelat 2030 = 60 % de Créf, avant modulation.
+Crelat 2040 sans modulation (kWh/m2);Crelat 2040 = 50 % de Créf, avant modulation.
+Crelat 2050 sans modulation (kWh/m2);Crelat 2050 = 40 % de Créf, avant modulation.
+Crelat 2030 avec modulation (kWh/m2);Valeur « Crelat 2030 modulé ». Null si le rapport n'en présente pas.
+Crelat 2040 avec modulation (kWh/m2);Valeur « Crelat 2040 modulé ». Null si le rapport n'en présente pas.
+Crelat 2050 avec modulation (kWh/m2);Valeur « Crelat 2050 modulé ». Null si le rapport n'en présente pas.
+Cref (kWh/m2);Consommation de référence Créf en kWhef/m² (ajustée). Attention : ne pas prendre une consommation totale en kWh.
+Electricité - Référence (kWh/m2);Consommation d'électricité de l'année de référence ramenée au m².
+Gaz - Référence (kWh/m2);Consommation de gaz de l'année de référence ramenée au m².
+Coût énergétique total - Référence (€ HT/m2);Coût annuel des énergies divisé par la surface. Si seul un coût TTC total est donné, calculer et le préciser (confiance moyenne).
+déperditions totales du bâtiment (kW);Déperditions totales en kW. Si plusieurs bâtiments, faire la somme.
+déperditions murs extérieurs (kW);Part « Murs ext » du graphique ou tableau « Répartition des déperditions ». Les nombres sont souvent donnés dans l'ordre des libellés.
+déperditions menuiseries - parois vitrées (kW);Part « Menuiseries / Ouvrants » de la répartition des déperditions.
+déperditions toitures - planchers haut - plafond (kW);Part « Toiture / Planchers hauts » de la répartition des déperditions.
+déperditions planchers bas (kW);Part « Plancher bas » de la répartition des déperditions.
+déperditions ponts thermiques (kW);Part « Ponts thermiques » de la répartition des déperditions.
+déperditions ventilation - infiltrations d'air (kW);Part « Ventilation / Renouvellement d'air » de la répartition des déperditions.
+Nombre préconisations - Gains rapides;Nombre d'actions classées « gains rapides », « actions immédiates » ou « sans investissement ». Si le rapport ne présente pas ce scénario, null.
+Nombre préconisations - 2030;Nombre de préconisations incluses dans le scénario 2030 (souvent Scénario 1).
+Cabs scénario 2030 (kWh/m2);Ratio de consommations du scénario 2030 en kWhef/m² (« Ratio de consommations Scénario 1 »).
+Total investissements - 2030 (k€);Coût d'investissement du scénario 2030, converti en k€ (diviser les € par 1000).
+Montant CEE - 2030 (k€);Montant estimé des CEE du scénario 2030, en k€.
+Gain annuel - 2030 (k€);Gain en € / an du scénario 2030, converti en k€.
+Temps de retour (prix croissants) - 2030;TRB prix croissants en années. « >30 » peut être conservé tel quel en texte.
+Temps de retour (prix fixes) - 2030;TRB prix constants / fixes en années. « >30 » peut être conservé tel quel en texte.
+Nombre préconisations - 2040;Nombre de préconisations incluses dans le scénario 2040 (souvent Scénario 2).
+Cabs scénario 2040 (kWh/m2);Ratio de consommations du scénario 2040 en kWhef/m² (« Ratio de consommations Scénario 2 »).
+Total investissements - 2040 (k€);Coût d'investissement du scénario 2040, converti en k€.
+Montant CEE - 2040 (k€);Montant estimé des CEE du scénario 2040, en k€.
+Gain annuel - 2040 (k€);Gain en € / an du scénario 2040, converti en k€.
+Nombre préconisations - 2050;Nombre de préconisations incluses dans le scénario 2050 (souvent Scénario 3).
+Cabs scénario 2050 (kWh/m2);Ratio de consommations du scénario 2050 en kWhef/m² (« Ratio de consommations Scénario 3 »).
+Total investissements - 2050 (k€);Coût d'investissement du scénario 2050, converti en k€.
+Montant CEE - 2050  (k€);Montant estimé des CEE du scénario 2050, en k€.
